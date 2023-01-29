@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  publicPath: '/layout-creator/',
   transpileDependencies: true,
   css: {
     loaderOptions: {
